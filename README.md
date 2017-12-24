@@ -1,87 +1,90 @@
-# raspberry-pi-access-point-
-video of install https://www.youtube.com/watch?v=cPRM5EOJk6c&feature=youtu.be
+# Accces point raspberry pi 
+this projet make raspberry pi 3 or zero to acccess point whit only install a shell script
 
-a raspberry pi access point from raspbian jessie
+[video of install](https://www.youtube.com/watch?v=cPRM5EOJk6c&feature=youtu.be)
 
-step 1 preparing the raspberry pi
+## Getting Started
+this raspberry pi accces point its works in raspbian jessie i test in raspberry pi zero y raspberry pi 3
+in raspberry pi zero first i install the acccess point first in pi 3an then put the SD card in raspberry pi zero
 
-put raspbian jessie in a sd card
+- default settings
 
-step 2 conect your raspberry pi to the current and the ethernet cable 
+       ip:172.24.1.1
+       ssid es:PI
+       password raspberry
 
-step 3 conect via ssh or display
+- notes
 
-step 4 open terminal an download the repository
+      change ssid in line 102 of code change ssid=NEWSSID
+      change pasword in code line 113 change to wpa_passphrase=NEWPASWORD
+  
+## Prerequisites
 
-      $ git clone git://github.com/nusspez/raspberry-pi-access-point-
 
-step 5 Give permissions
+- rapsberry pi 3
 
-      $ cd raspberry-pi-access-point-
-      $ chmod +x "access point.sh" 
-      $ chmod 0755 "access point.sh"
+- ethernet cable
 
-step 6 install the access point
+## Install
 
-      $ sudo ./"access point.sh"
+### Step 1
 
-select 1 from install 
 
-select 2 from remove
+conect your raspberry pi to the current and the ethernet cable 
 
-select 3 from info
+### Step 2
 
-select 4 from exit
+download the repository
 
-enjoy the access point
+        git clone git://github.com/nusspez/raspberry-pi-access-point-
+  
+### Step 3
 
-note: include quotation marks
+Give permissions
 
-ip:172.24.1.1
+        cd raspberry-pi-access-point-
+        chmod +x "access point.sh" 
+        chmod 0755 "access point.sh"
 
-ssid es:PI
+*note: include quotation marks*
 
-contraseña raspberry
-      
-     change ssid in line 102 of code change ssid=NEWSSID
-     change pasword in code line 113 change to wpa_passphrase=NEWPASWORD
+### Step 4
+
+install the access point
+
+       sudo ./"access point.sh"
+
+*note: include quotation marks*
+
+### Final step
+
+- install the acccess point 1
+
+- remove 2
+
+- info 3
+
+- exit 4
+
+## Test
+
+conect the raspberry pi and then take your movil and in wifi setings search pi this is ypur access point
+
+## Built With
+
+
+- shell script
+
+## Authors
+
+
+- nusspez
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details
+
+## Acknowledgments
 
 give me a coffee https://www.paypal.me/PezNuss
 
-español
-
-access point para raspberry pi
-
-IMPORTANTE:si estas usando vnc es importante  tener conectada la raspberry pi con un cable ethernet 
-
-puedes ver el video en youtube de la instalación https://www.youtube.com/watch?v=cPRM5EOJk6c&feature=youtu.be
-
-para instalar el access point son necesarios los siguiente pasos
-
-1 bajar el repositorio
-
-      $ git clone git://github.com/nusspez/raspberry-pi-access-point-
-      
-2 darle permisos con los siguientes comandos
-
-      $ cd raspberry-pi-access-point-
-      $ chmod +x "access point.sh" 
-      $ chmod 0755 "access point.sh"
-      
-3 instalar el acces point
-
-      $ sudo ./"access point.sh"   //  recuerda ejecutar con sudo el script de lo contrario no funciona 
-
-disfruta tu access point
-
-ip:172.24.1.1
-
-ssid es:PI
-
-contraseña raspberry
-
-para cambiar la ssid en la línea 102 del codigo tienes que cambiar ssid=nombre_que_quieras
-
-para cambiar la contraseña en la linea 113 del codigo cámbiala a wpa_passphrase=TU_NUEVA_CONTRASEÑA
-
-recuerda puedes invitarme un café aquí https://www.paypal.me/PezNuss
