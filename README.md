@@ -1,24 +1,37 @@
 # raspberry-pi-access-point-
 video of install https://www.youtube.com/watch?v=cPRM5EOJk6c&feature=youtu.be
-a raspberry pi access point from raspbian jessie 
+a raspberry pi access point from raspbian jessie
+
 step 1 preparing the raspberry pi
-put raspbian jessie in a sd card 
+put raspbian jessie in a sd card
+
 step 2 conect your raspberry pi to the current and the ethernet cable 
+
 step 3 conect via ssh or display
+
 step 4 open terminal an download the repository
 $ git clone git://github.com/nusspez/raspberry-pi-access-point-
+
 step 5 Give permissions
 $ cd raspberry-pi-access-point-
 $ chmod +x "access point.sh" 
 $ chmod 0755 "access point.sh"
+
 step 6 install the access point
 $ sudo ./"access point.sh"
+
 select 1 from install 
+
 select 2 from remove
+
 select 3 from info
+
 select 4 from exit
+
 enjoy the access point
+
 note: include quotation marks
+
       ip:172.24.1.1
       ssid es:PI
       contraseña raspberry
