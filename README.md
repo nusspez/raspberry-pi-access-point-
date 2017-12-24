@@ -1,8 +1,10 @@
 # raspberry-pi-access-point-
 video of install https://www.youtube.com/watch?v=cPRM5EOJk6c&feature=youtu.be
+
 a raspberry pi access point from raspbian jessie
 
 step 1 preparing the raspberry pi
+
 put raspbian jessie in a sd card
 
 step 2 conect your raspberry pi to the current and the ethernet cable 
@@ -10,15 +12,18 @@ step 2 conect your raspberry pi to the current and the ethernet cable
 step 3 conect via ssh or display
 
 step 4 open terminal an download the repository
-$ git clone git://github.com/nusspez/raspberry-pi-access-point-
+
+      $ git clone git://github.com/nusspez/raspberry-pi-access-point-
 
 step 5 Give permissions
-$ cd raspberry-pi-access-point-
-$ chmod +x "access point.sh" 
-$ chmod 0755 "access point.sh"
+
+      $ cd raspberry-pi-access-point-
+      $ chmod +x "access point.sh" 
+      $ chmod 0755 "access point.sh"
 
 step 6 install the access point
-$ sudo ./"access point.sh"
+
+      $ sudo ./"access point.sh"
 
 select 1 from install 
 
@@ -32,9 +37,11 @@ enjoy the access point
 
 note: include quotation marks
 
-      ip:172.24.1.1
-      ssid es:PI
-      contraseña raspberry
+ip:172.24.1.1
+
+ssid es:PI
+
+contraseña raspberry
       
      change ssid in line 102 of code change ssid=NEWSSID
      change pasword in code line 113 change to wpa_passphrase=NEWPASWORD
@@ -52,13 +59,18 @@ puedes ver el video en youtube de la instalación https://www.youtube.com/watch?
 para instalar el access point son necesarios los siguiente pasos
 
 1 bajar el repositorio
-$ git clone git://github.com/nusspez/raspberry-pi-access-point-
+
+      $ git clone git://github.com/nusspez/raspberry-pi-access-point-
+      
 2 darle permisos con los siguientes comandos
-$ cd raspberry-pi-access-point-
-$ chmod +x "access point.sh" 
-$ chmod 0755 "access point.sh"
+
+      $ cd raspberry-pi-access-point-
+      $ chmod +x "access point.sh" 
+      $ chmod 0755 "access point.sh"
+      
 3 instalar el acces point
-$ sudo ./"access point.sh"   //  recuerda ejecutar con sudo el script de lo contrario no funciona 
+
+      $ sudo ./"access point.sh"   //  recuerda ejecutar con sudo el script de lo contrario no funciona 
 
 disfruta tu access point
 
