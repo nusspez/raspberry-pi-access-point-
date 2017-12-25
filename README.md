@@ -1,6 +1,8 @@
 # Accces point raspberry pi 
 this projet make raspberry pi 3 or zero to acccess point whit only install a shell script
 
+* if you want to install in raspbian stretch plese visit [raspberry pi access point](https://github.com/nusspez/raspberry-pi-access-point-v2)
+
 [video of install](https://www.youtube.com/watch?v=cPRM5EOJk6c&feature=youtu.be)
 
 ## Getting Started
